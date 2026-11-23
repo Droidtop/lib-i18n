@@ -1,6 +1,6 @@
 package dev.droidtop.lib.ui.format
 
-// droidtop runtime-common's dev.droidtop.library.format ValueFormat.kt, moved here unchanged (Droidtop/tracker#867):
+// droidtop runtime-common's dev.droidtop.library.format ValueFormat.kt, moved here unchanged (mytop-project/tracker#867):
 // every size, time and state a person reads goes through one formatter, in every UI. SPEC references are droidtop's.
 
 import java.util.Calendar
@@ -8,7 +8,7 @@ import java.util.Locale
 import java.util.TimeZone
 
 /**
- * The one formatter for values a person reads (docs/SPEC.md 7k, "Values"; Droidtop/tracker#485 slice F2a):
+ * The one formatter for values a person reads (docs/SPEC.md 7k, "Values"; mytop-project/tracker#485 slice F2a):
  * sizes, play and remaining times, percentages, counts, clock times, "how long ago" and the plain state
  * words. Every surface (Gaming, Desktop, the companion, Standard's Preference rows, a plugin's typed
  * values) formats through here, so "1.2 GB" and "2 h 5 min" read the same everywhere and a change to
